@@ -12,13 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // The bundle is the bundle of the app, it stores the actual files and things for our application
+        let path = Bundle.main.path(forResource: "btn", ofType: "wav")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    // This button sound lives in our project somewhere when the app is running on someone's phone. There is an actual URL to that path and it's stored somewhere on the user's device.
 
 
 }
