@@ -51,7 +51,7 @@ class ViewController: UIViewController {
             
             // We loaded it into the URL, the sound itself, how do we play the sound? HAVE THE BUTTONS CALL A FUNCTION
         }
-        outputLabel.text = "0"
+        outputLabel.text = "0.0"
         
     }
 
